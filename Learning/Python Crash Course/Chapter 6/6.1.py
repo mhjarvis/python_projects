@@ -10,5 +10,23 @@ person = {
 for obj in person:
     print(person[obj])
 
+print("\n# 6.2. Favorite Numbers")
+print('---------------------------------------------')
+
+fav_numbers = {
+    'joe': 22,
+    'ryan': 84,
+    'bob': 28,
+    'job': 188,
+    'eee': 24,
+}
+
+for num in fav_numbers:
+    print(f"{num}: {fav_numbers[num]}")
+
+
+print("\n# 6.3. Glossary")
+print('---------------------------------------------')
+
+
 print()
-print(person)
