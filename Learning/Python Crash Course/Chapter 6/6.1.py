@@ -24,6 +24,9 @@ fav_numbers = {
 for num in fav_numbers:
     print(f"{num}: {fav_numbers[num]}")
 
+for key, value in fav_numbers.items():
+    print(f"{key}: {value}")
+
 
 print("\n# 6.3. Glossary")
 print('---------------------------------------------')
